@@ -10,21 +10,26 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link href="./css/styles.css" rel="stylesheet" />
     <title>WebStudio</title>
   </head>
   <body>
     <header>
       <nav>
-        <a href="#"><span>Web</span>Studio</a>
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="#">Портфолио</a></li>
-          <li><a href="#">Контакты</a></li>
+        <a href="#" class="logo link"><span>Web</span>Studio</a>
+        <ul class="site-nav">
+          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="#" class="link">Портфолио</a></li>
+          <li><a href="#" class="link">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="contacts-nav">
+        <li>
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
@@ -40,55 +45,105 @@
       <section class="portfolio">
         <ul>
           <li>
-            <img src="./images/technokryak.jpg" alt="Технокряк" />
-            <h3>Технокряк</h3>
-            <p>Веб-сайт</p>
+            <figure>
+              <img src="./images/technokryak.jpg" alt="Технокряк" width="370" />
+              <figcaption>
+                <h3>Технокряк</h3>
+                <p>Веб-сайт</p>
+              </figcaption>
+            </figure>
           </li>
           <li>
-            <img
-              src="./images/basketball.jpg"
-              alt="Постер New Orlean vs Golden Star"
-            />
-            <h3>Постер New Orlean vs Golden Star</h3>
-            <p>Дизайн</p>
+            <figure>
+              <img
+                src="./images/basketball.jpg"
+                alt="Постер New Orlean vs Golden Star"
+                width="370"
+              />
+              <figcaption>
+                <h3>Постер New Orlean vs Golden Star</h3>
+                <p>Дизайн</p>
+              </figcaption>
+            </figure>
           </li>
           <li>
-            <img src="./images/seafood.jpg" alt="Ресторан Seafood" />
-            <h3>Ресторан Seafood</h3>
-            <p>Приложение</p>
+            <figure>
+              <img
+                src="./images/seafood.jpg"
+                alt="Ресторан Seafood"
+                width="370"
+              />
+              <figcaption>
+                <h3>Ресторан Seafood</h3>
+                <p>Приложение</p>
+              </figcaption>
+            </figure>
           </li>
           <li>
-            <img src="./images/prime.jpg" alt="Проект Prime" />
-            <h3>Проект Prime</h3>
-            <p>Маркетинг</p>
+            <figure>
+              <img src="./images/prime.jpg" alt="Проект Prime" width="370" />
+              <figcaption>
+                <h3>Проект Prime</h3>
+                <p>Маркетинг</p>
+              </figcaption>
+            </figure>
           </li>
           <li>
-            <img src="./images/boxes.jpg" alt="Проект Boxes" />
-            <h3>Проект Boxes</h3>
-            <p>Приложение</p>
+            <figure>
+              <img src="./images/boxes.jpg" alt="Проект Boxes" width="370" />
+              <figcaption>
+                <h3>Проект Boxes</h3>
+                <p>Приложение</p>
+              </figcaption>
+            </figure>
           </li>
           <li>
-            <img
-              src="./images/inspiration.jpg"
-              alt="Inspiration has no Borders"
-            />
-            <h3>Inspiration has no Borders</h3>
-            <p>Веб-сайт</p>
+            <figure>
+              <img
+                src="./images/inspiration.jpg"
+                alt="Inspiration has no Borders"
+                width="370"
+              />
+              <figcaption>
+                <h3>Inspiration has no Borders</h3>
+                <p>Веб-сайт</p>
+              </figcaption>
+            </figure>
           </li>
           <li>
-            <img src="./images/edition.jpg" alt="Издание Limited Edition" />
-            <h3>Издание Limited Edition</h3>
-            <p>Дизайн</p>
+            <figure>
+              <img
+                src="./images/edition.jpg"
+                alt="Издание Limited Edition"
+                width="370"
+              />
+              <figcaption>
+                <h3>Издание Limited Edition</h3>
+                <p>Дизайн</p>
+              </figcaption>
+            </figure>
           </li>
           <li>
-            <img src="./images/lab.jpg" alt="Проект LAB" />
-            <h3>Проект LAB</h3>
-            <p>Маркетинг</p>
+            <figure>
+              <img src="./images/lab.jpg" alt="Проект LAB" width="370" />
+              <figcaption>
+                <h3>Проект LAB</h3>
+                <p>Маркетинг</p>
+              </figcaption>
+            </figure>
           </li>
           <li>
-            <img src="./images/growing.jpg" alt="Growing Business" />
-            <h3>Growing Business</h3>
-            <p>Приложение</p>
+            <figure>
+              <img
+                src="./images/growing.jpg"
+                alt="Growing Business"
+                width="370"
+              />
+              <figcaption>
+                <h3>Growing Business</h3>
+                <p>Приложение</p>
+              </figcaption>
+            </figure>
           </li>
         </ul>
       </section>
@@ -98,8 +153,12 @@
       <address>
         г. Киев, пр-т Леси Украинки, 26
         <ul>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+          <li>
+            <a href="mailto:info@example.com" class="link">info@example.com</a>
+          </li>
+          <li>
+            <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>

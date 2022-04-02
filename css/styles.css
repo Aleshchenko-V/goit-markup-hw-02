@@ -1,2 +1,28 @@
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif; */
+
+/* black: #212121 
+white: #ffffff
+blue: #2196F3*
+grey: #757575
+footer: #2F303A
+links: rgba(255, 255, 255, 0.6)
+background: #E5E5E5
+links background: #F5F4FA/
+
+/*
+цвет основного текста
+вторичный цвет текста
+белый
+акцент
+вторичный цвет фона
+*/
+
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+.link {
+  text-decoration: none;
+}
